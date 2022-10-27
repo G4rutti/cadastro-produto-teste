@@ -17,7 +17,7 @@ public class ConexaoBD
                 Server = "127.0.0.1",
                 UserID = "root",
                 Password = "",
-                Database = "db_tela_produto_1"
+                Database = "db_produto_1"
             };
         }
         private set

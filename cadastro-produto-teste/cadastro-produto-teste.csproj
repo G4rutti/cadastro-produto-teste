@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="userLogin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MySqlConnector" Version="2.1.13" />
   </ItemGroup>
 
@@ -19,6 +23,10 @@
   <ItemGroup>
     <ProjectReference Include="..\cadastro-produto-teste.Controller\cadastro-produto-teste.Controller.csproj" />
     <ProjectReference Include="..\cadastro-produto-teste.Models\cadastro-produto-teste.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="userLogin.png" />
   </ItemGroup>
 
 </Project>

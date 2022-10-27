@@ -1,0 +1,25 @@
+﻿<Window x:Class="login_para_teste.FrmLoginUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:login_para_teste"
+        mc:Ignorable="d"
+        Title="FrmLoginUsuario" Height="800" Width="450" Background="White"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
+    <Grid>
+        <Image Visibility="Hidden" HorizontalAlignment="Center" Height="1265" VerticalAlignment="Center" Width="720" Source="/8ef6ec48-5da9-495d-abf3-4a9a5e508597.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,174,0,0" TextWrapping="Wrap" Text="Sign In" VerticalAlignment="Top" FontSize="48" Width="155" FontWeight="Bold" Height="75"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="0,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="378" FontSize="36" Height="84" BorderBrush="Black" TextAlignment="Left" MaxLines="1" MaxLength="50" VerticalContentAlignment="Center" MinLines="1"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,388,0,0" VerticalAlignment="Top" Width="378" FontSize="36" Height="84" BorderBrush="Black" MaxLength="48" VerticalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,290,0,0" TextWrapping="Wrap" Text="E-mail:" VerticalAlignment="Top" Height="18" Width="90" FontSize="16" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,388,0,0" TextWrapping="Wrap" Text="Senha:" VerticalAlignment="Top" Height="17" Width="91" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btnLogin" Content="Entrar" HorizontalAlignment="Center" Margin="0,565,0,0" VerticalAlignment="Top" Height="80" Width="378" Background="#FF0A66C2" BorderBrush="{x:Null}" Foreground="White" FontSize="36" Click="FazerLogin"/>
+        <TextBlock x:Name="txtEsqueceuSenha" HorizontalAlignment="Left" Margin="58,498,0,0" TextWrapping="Wrap" Text="Esqueceu a Senha?" VerticalAlignment="Top" FontSize="22" Width="225" FontWeight="Normal" Foreground="#FF0A66C2" Height="38"/>
+        <TextBlock x:Name="btnTxtSair" HorizontalAlignment="Left" Margin="384,38,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" FontSize="48" Width="33" FontWeight="Normal" Foreground="#FF666666" TextAlignment="Center" Height="51" MouseLeftButtonDown="FecharAplicacao"/>
+        <TextBlock x:Name="txtCadastrar" HorizontalAlignment="Center" Margin="0,665,0,0" TextWrapping="Wrap" Text="Não tem conta? Cadastre-se." VerticalAlignment="Top" FontSize="22" Width="450" FontWeight="Normal" Foreground="#FF0A66C2" Height="38" TextAlignment="Center" MouseLeftButtonDown="AbrirTelaCadastroUsuario"/>
+
+    </Grid>
+</Window>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cadastro-produto-teste.View", "cadastro-produto-teste\cadastro-produto-teste.View.csproj", "{12E183CB-B6D7-438B-8F06-7EA425B25C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cadastro-produto-teste", "cadastro-produto-teste\cadastro-produto-teste.csproj", "{12E183CB-B6D7-438B-8F06-7EA425B25C48}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cadastro-produto-teste.Controller", "cadastro-produto-teste.Controller\cadastro-produto-teste.Controller.csproj", "{12C9C3B5-59A3-483C-A776-4E82A25D880E}"
 EndProject
